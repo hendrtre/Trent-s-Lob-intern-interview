@@ -42,7 +42,8 @@
   }
   
   .col--left {
-    background-color: var(--color-graydove);
+    background-color: rgb(190, 62, 62);
+    /* background-color: var(--color-graydove); */
     color: var(--color-white);
   }
   
@@ -50,6 +51,7 @@
     font-family: 'Neuton', serif;
     font-size: 6vw;
     margin: 10px 0;
+    text-align: center;
   }
   
   .col--right {
@@ -62,8 +64,10 @@
   }
   
   .lobster img {
-    width: 25%;
+    width: 35%;
     height: 100%;
+    border-radius: 10%;
+    box-shadow: 5px 3px 6px;
   }
   
   .text {
@@ -71,8 +75,9 @@
     text-align: justify;
   }
   
-  .text p:first-child {
+  .text p {
     margin-top: 0;
+    text-indent: 3em;
   }
   
   @media (max-width: 700px) {
